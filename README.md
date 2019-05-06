@@ -20,7 +20,7 @@ Open your ```build.gradle``` Then, include the library as dependency:
 
 ```    
 implementation 'com.android.support:recyclerview-v7:{yourVersion}'
-implementation 'com.sahana.horizontalcalendarview:HorizontalCalendarView:1.1.0'
+implementation 'com.sahana.horizontalcalendarview:HorizontalCalendarView:1.1.4'
 ```
 
 # For Maven users
@@ -29,7 +29,7 @@ Add this dependency to your ```pom.xml```:
 <dependency>
   <groupId>com.sahana.horizontalcalendarview</groupId>
   <artifactId>HorizontalCalendarView</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.4</version>
   <type>pom</type>
 </dependency>
 ```
