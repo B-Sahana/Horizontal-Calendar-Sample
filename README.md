@@ -2,7 +2,6 @@
 <a href='https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView?source=watch' alt='Get automatic notifications about new "HorizontalCalendarView" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a><a href='https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView?source=watch' alt='Get automatic notifications about new "HorizontalCalendarView" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
 
 [ ![Download](https://api.bintray.com/packages/sahanab/HorizontalCalendarView/HorizontalCalendarView/images/download.svg?version=1.0.3) ](https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView/1.0.3/link)   [ ![Download](https://api.bintray.com/packages/sahanab/HorizontalCalendarView/HorizontalCalendarView/images/download.svg?version=1.0.2) ](https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView/1.0.2/link)
-
 [ ![Download](https://api.bintray.com/packages/sahanab/HorizontalCalendarView/HorizontalCalendarView/images/download.svg?version=1.0.1) ](https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView/1.0.1/link)
 
 HorizontalCalendarSample is an Android library for creating horizontal view for Calendar
@@ -21,7 +20,7 @@ Open your ```build.gradle``` Then, include the library as dependency:
 
 ```    
 implementation 'com.android.support:recyclerview-v7:{yourVersion}'
-implementation 'com.sahana.horizontalcalendarview:HorizontalCalendarView:1.0.2'
+implementation 'com.sahana.horizontalcalendarview:HorizontalCalendarView:1.0.3'
 ```
 
 # For Maven users
@@ -30,7 +29,7 @@ Add this dependency to your ```pom.xml```:
 <dependency>
   <groupId>com.sahana.horizontalcalendarview</groupId>
   <artifactId>HorizontalCalendarView</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <type>pom</type>
 </dependency>
 ```
