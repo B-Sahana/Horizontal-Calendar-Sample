@@ -35,7 +35,7 @@ Add this dependency to your ```pom.xml```:
 ```
 ## Usage
 
-Please see the ```/HorizontalCalendarSample-app``` app for a more detailed code example of how to use the library.
+Please see the ```/Horizontal-Calendar-Android-Library-app``` app for a more detailed code example of how to use the library.
 
 1.Add the ```HorizontalCalendar``` view to the layout you want to show.
 ```
