@@ -4,7 +4,7 @@
 [ ![Download](https://api.bintray.com/packages/sahanab/HorizontalCalendarView/HorizontalCalendarView/images/download.svg) ](https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView/_latestVersion)   [ ![Download](https://api.bintray.com/packages/sahanab/HorizontalCalendarView/HorizontalCalendarView/images/download.svg?version=1.0.2) ](https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView/1.0.2/link)
 [ ![Download](https://api.bintray.com/packages/sahanab/HorizontalCalendarView/HorizontalCalendarView/images/download.svg?version=1.0.1) ](https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView/1.0.1/link)
 
-HorizontalCalendarSample is an Android library for creating horizontal view for Calendar
+Horizontal Calendar is an Android library for creating horizontal view for Calendar
 
 ![](screenshots/cs1.gif)
 # Features
