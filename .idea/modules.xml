@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HorizontalCalendarExample.iml" filepath="$PROJECT_DIR$/HorizontalCalendarExample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Horizontal-Calendar-Sample.iml" filepath="$PROJECT_DIR$/.idea/modules/Horizontal-Calendar-Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Horizontal-Calendar-Sample.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Horizontal-Calendar-Sample.app.iml" />
     </modules>
   </component>
 </project>

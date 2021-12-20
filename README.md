@@ -49,11 +49,10 @@ Please see the ```/HorizontalCalendarSample-app``` or ```Horizontal-Calendar-Sam
         android:id="@+id/horizontalCalendar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         app:numOfDays="90"
-        app:setBgColor="@color/purple_200"
-        app:setSelectedBgColor="@color/purple_700"
+        app:setBgColor="@color/colorPrimary"
+        app:setSelectedBgColor="@color/colorAccent"
         app:setTextColor="@color/white"
         app:setSelectedTextColor="@color/white"
         app:setDateTextSize="@dimen/twenty_two_sp"
@@ -104,13 +103,13 @@ Please see the ```/HorizontalCalendarSample-app``` or ```Horizontal-Calendar-Sam
 3.To listen to selected date events you need to set a listener:
 - ```setOnDateSelectListener``` - by calling this.
 ```
-        mHorizontalCalendar.setOnDateSelectListener(new OnHorizontalDateSelectListener() {
-            @Override
-            public void onSelect(DateModel dateModel) {
-                Log.d("date", dateModel != null ? dateModel.month + dateModel.day + dateModel.dayOfWeek + dateModel.year+"" : "");
+       mHorizontalCalendar.setOnDateSelectListener(new OnDateSelectListener() {
+                  @Override
+                  public void onSelect(DateModel dateModel) {
+                      mDateTextView.setText(dateModel != null ? dateModel.day + " " + dateModel.dayOfWeek + " " + dateModel.month + "," + dateModel.year : "");
 
-            }
-        });
+                  }
+              });
 ```
 
 4. If you want to set label dynamically  call below method:

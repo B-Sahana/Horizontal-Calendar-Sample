@@ -9,12 +9,22 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.sahana.horizontalcalendarview.CustomHorizontalCalendar
-        android:id="@+id/customHorizontal"
+    <com.sahana.horizontalcalendar.HorizontalCalendar
+        android:id="@+id/horizontalCalendar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         app:numOfDays="90"
+        app:setBgColor="@color/colorPrimary"
+        app:setSelectedBgColor="@color/colorAccent"
+        app:setTextColor="@color/white"
+        app:setSelectedTextColor="@color/white"
+        app:setDateTextSize="@dimen/twenty_two_sp"
+        app:setWeekTextSize="13sp"
+        app:setMonthTextSize="17sp"
+        app:setDateFontStyle="@string/light"
+        app:setLabelFontStyle="@string/bold"
+        app:setMonthFontStyle="@string/bold"
         app:setLabel="@string/title" />
 
     <TextView
