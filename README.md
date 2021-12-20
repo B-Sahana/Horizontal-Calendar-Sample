@@ -17,13 +17,6 @@ Android Horizontal Calendar with Recyclerview is an easy library to customize ho
 - 
 ## Default
 ![](screenshots/cs1.gif)
-![](screenshots/default.gif)
-
-## Customised
-![](screenshots/customised.gif)
-
-## Multi Language support
-![](screenshots/language.gif)
 
 ## Installation
 
