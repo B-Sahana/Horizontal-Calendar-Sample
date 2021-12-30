@@ -63,14 +63,12 @@ Please see the ```Horizontal-Calendar-Sample```  for a more detailed code exampl
         app:setMonthFontStyle="@string/bold"
         app:setLabel="@string/label"/>
  ```    
-2. ## Add Fonts
-Add your custom fonts to assets/. All font definitions are relative to this path.
-
-Assuming that you are using Gradle you should create the assets directory under src/main/ in your project directory if it does not already exist. As it's popular to use multi-project build with Gradle the path is usually app/src/main/assets/, where app is the project name.
+2. Add Fonts: Add your custom fonts to assets/. All font definitions are relative to this path.
+   Assuming that you are using Gradle you should create the assets directory under src/main/ in your project directory if it does not already exist. As it's   popular to use multi-project build with Gradle the path is usually app/src/main/assets/, where app is the project name.
 
 You might consider creating a fonts/ subdirectory in the assets directory (as in examples).
 
-3.Configure attributes.
+3. Configure attributes.
 - ```numOfDays``` - to set number of days to display in horizontal calendar (default: 60 days).
 
 - ```setLabel``` - to set your title/label to view.
@@ -96,18 +94,18 @@ You might consider creating a fonts/ subdirectory in the assets directory (as in
 
 - ```setWeekTextSize``` - to set ```week``` text size in SP (default: 12sp) .
 
-- ```setLabelFontStyle``` - to set title/label font(typeface). Usage <com.sahana.horizontalcalendar.HorizontalCalendar app:setLabelFontStyle="fonts/Light.ttf"/>
+- ```setLabelFontStyle``` - to set title/label font(typeface).```Usage <com.sahana.horizontalcalendar.HorizontalCalendar app:setLabelFontStyle="fonts/Light.ttf"/>```
 
-- ```setMonthFontStyle``` - to set ```Month and Year``` font(typeface). Usage <com.sahana.horizontalcalendar.HorizontalCalendar app:setMonthFontStyle="fonts/Light.ttf"/>
+- ```setMonthFontStyle``` - to set ```Month and Year``` font(typeface).```Usage <com.sahana.horizontalcalendar.HorizontalCalendar app:setMonthFontStyle="fonts/Light.ttf"/>```
 
-- ```setDateFontStyle``` - to set ```Date and Week``` font(typeface). Usage <com.sahana.horizontalcalendar.HorizontalCalendar app:setDateFontStyle="fonts/Light.ttf"/>
+- ```setDateFontStyle``` - to set ```Date and Week``` font(typeface).```Usage <com.sahana.horizontalcalendar.HorizontalCalendar app:setDateFontStyle="fonts/Light.ttf"/>```
 
 - ```setIconsColor``` - to set left and right icons color.
 
 - ```setLanguage``` - By default set to default local language. If you want only in english then select English from list.
 
 
-4.To listen to selected date events you need to set a listener:
+4. To listen to selected date events you need to set a listener:
 - ```setOnDateSelectListener``` - by calling this.
 ```
        mHorizontalCalendar.setOnDateSelectListener(new OnDateSelectListener() {
