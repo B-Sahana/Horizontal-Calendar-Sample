@@ -58,7 +58,7 @@ Please see the ```Horizontal-Calendar-Sample```  for a more detailed code exampl
         app:setDateTextSize="@dimen/twenty_two_sp"
         app:setWeekTextSize="13sp"
         app:setMonthTextSize="17sp"
-        app:setDateFontStyle="fonts/Light.ttf"
+        app:setDateFontStyle="fonts/Light.otf"
         app:setLabelFontStyle="@string/bold"
         app:setMonthFontStyle="@string/bold"
         app:setLabel="@string/label"/>
@@ -96,11 +96,11 @@ Please see the ```Horizontal-Calendar-Sample```  for a more detailed code exampl
 
 - ```setWeekTextSize``` - to set ```week``` text size in SP (default: 12sp) .
 
-- ```setLabelFontStyle``` - to set title/label font(typeface).```Usage <com.sahana.horizontalcalendar.HorizontalCalendar app:setLabelFontStyle="fonts/Light.ttf"/>```
+- ```setLabelFontStyle``` - to set title/label font(typeface).```Usage <com.sahana.horizontalcalendar.HorizontalCalendar app:setLabelFontStyle="fonts/Light.otf"/>```
 
-- ```setMonthFontStyle``` - to set ```Month and Year``` font(typeface).```Usage <com.sahana.horizontalcalendar.HorizontalCalendar app:setMonthFontStyle="fonts/Light.ttf"/>```
+- ```setMonthFontStyle``` - to set ```Month and Year``` font(typeface).```Usage <com.sahana.horizontalcalendar.HorizontalCalendar app:setMonthFontStyle="fonts/Light.otf"/>```
 
-- ```setDateFontStyle``` - to set ```Date and Week``` font(typeface).```Usage <com.sahana.horizontalcalendar.HorizontalCalendar app:setDateFontStyle="fonts/Light.ttf"/>```
+- ```setDateFontStyle``` - to set ```Date and Week``` font(typeface).```Usage <com.sahana.horizontalcalendar.HorizontalCalendar app:setDateFontStyle="fonts/Light.otf"/>```
 
 - ```setIconsColor``` - to set left and right icons color.
 
