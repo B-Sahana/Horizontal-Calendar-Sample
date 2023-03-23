@@ -14,13 +14,10 @@ Android Horizontal Calendar with Recyclerview is an easy library to customize ho
 - Customizable left and right icons color.
 - Customizable text color and size ,background color and font, number of days to display.
 - minSdkVersion 21
-
-## Installation
-
-Latest version of the library can be found on Maven Central.
 ## Default
 ![](screenshots/cs1.gif)
-
+## Installation
+Latest version of the library can be found on Maven Central.
 # For Gradle users
 Open your ```build.gradle``` Then, include the library as dependency:
 
