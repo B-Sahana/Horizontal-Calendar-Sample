@@ -1,10 +1,10 @@
-# Horizontal Calendar Android Library Sample
+<!-- # Horizontal Calendar Android Library Sample
 <a href='https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView?source=watch' alt='Get automatic notifications about new "HorizontalCalendarView" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a><a href='https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView?source=watch' alt='Get automatic notifications about new "HorizontalCalendarView" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
 
 [ ![Download](https://api.bintray.com/packages/sahanab/HorizontalCalendarView/HorizontalCalendarView/images/download.svg) ](https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView/_latestVersion)   [ ![Download](https://api.bintray.com/packages/sahanab/HorizontalCalendarView/HorizontalCalendarView/images/download.svg?version=1.0.2) ](https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView/1.0.2/link)
-[ ![Download](https://api.bintray.com/packages/sahanab/HorizontalCalendarView/HorizontalCalendarView/images/download.svg?version=1.0.1) ](https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView/1.0.1/link)
+[ ![Download](https://api.bintray.com/packages/sahanab/HorizontalCalendarView/HorizontalCalendarView/images/download.svg?version=1.0.1) ](https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView/1.0.1/link) -->
 
-# Android Horizontal Calendar
+# Android Library Horizontal Calendar
 Migrated to Androidx and upgraded to latest sdks
 
 Android Horizontal Calendar with Recyclerview is an easy library to customize horizontal calendar view with selecting center item.
@@ -15,12 +15,11 @@ Android Horizontal Calendar with Recyclerview is an easy library to customize ho
 - Customizable text color and size ,background color and font, number of days to display.
 - minSdkVersion 21
 
-## Default
-![](screenshots/cs1.gif)
-
 ## Installation
 
 Latest version of the library can be found on Maven Central.
+## Default
+![](screenshots/cs1.gif)
 
 # For Gradle users
 Open your ```build.gradle``` Then, include the library as dependency:
