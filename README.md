@@ -22,7 +22,7 @@ Latest version of the library can be found on Maven Central.
 Open your ```build.gradle``` Then, include the library as dependency:
 
 ```    
-implementation 'io.github.b-sahana:horizontalcalendar:1.2.1'
+implementation 'io.github.b-sahana:horizontalcalendar:1.2.2'
 ```
 
 # For Maven users
@@ -31,7 +31,7 @@ Add this dependency to your ```pom.xml```:
 <dependency>
   <groupId>io.github.b-sahana</groupId>
   <artifactId>horizontalcalendar</artifactId>
-  <version>1.2.1</version>
+  <version>1.2.2</version>
   <type>aar</type>
 </dependency>
 ```
@@ -78,10 +78,7 @@ Please see the ```Horizontal-Calendar-Sample```  for a more detailed code exampl
 - ```setSelectedBgColor``` - to set backgroundcolor when user selected (default: sky blue (#4ba6bb) ).
 
 - ```setSelectedTextColor``` - to set text color when user selected (default: white ).
-
-- ```setScrollSpeed``` - to set scroll speed of view when pressed for long on arrow marks\icons (default: 30).
-     - If you want scroll speed to be slow then set the ```setScrollSpeed``` value below 30 (only positive Integers allowed).
-     
+ 
 - ```setMonthColor``` - to set ```Month and Year``` text color (default: black).
 
 - ```setLabelTextSize``` - to set title/label text size in SP (default: 13sp) .
